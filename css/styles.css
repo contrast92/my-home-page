@@ -1,0 +1,44 @@
+body {
+    background-color: #f1f6ea;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    font-weight: 500;
+    color: #333;
+}
+
+h1 {
+    color: #66bfbf;
+}
+
+h3 {
+    color: #66bfbf;
+}
+
+hr {
+    border-color: gray;
+    background-color: black;
+    height: 2px;
+}
+
+img {
+    width: 300px;
+}
+
+table tr td:empty {
+    width: auto;
+    border: none;
+}
+
+table {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+td {
+    padding: 5px;
+    margin-right: 20px;
+    border: 1px solid;
+}
+td:last-child {
+    margin-right: auto;
+}
